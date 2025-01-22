@@ -7,20 +7,9 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Multiplatform & Web Developer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/Photo.png",
   location: "Europe/Madrid", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Spanish", "English"], // optional: Leave the array empty if you don't want to display languages
-};
-
-const newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: (
-    <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
-    </>
-  ),
 };
 
 const social = [
@@ -51,7 +40,7 @@ const home = {
   subline: (
     <>
       I'm {person.firstName}, a Multiplatform & Web Developer, where I craft from the simple to de complex
-      <br /> apps, always looking for a good user experience. After being studying for almost 4 years, I'll show you what i learned.
+      <br /> apps/websites, always looking for a good user experience. After being studying for almost 4 years, I'll show you what i learned.
     </>
   ),
 };
@@ -277,4 +266,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, home, about, blog, work, gallery };

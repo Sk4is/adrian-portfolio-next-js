@@ -9,16 +9,17 @@
 
 .gradient {
   background: radial-gradient(
-        ellipse var(--gradient-width) var(--gradient-height) at var(--gradient-position-x) var(--gradient-position-y),
-        var(--gradient-color-start),
-        var(--gradient-color-end)
-      );
-  width: 400%;
-  height: 400%;
-  left: -150%;
-  top: -150%;
-  transform: rotate(var(--gradient-tilt));
-  transform-origin: center;
+      ellipse 120% 120% at var(--gradient-position-x) var(--gradient-position-y),
+      rgb(212, 0, 255), /* Azul-morado oscuro */
+      rgba(0, 4, 255, 0.5), /* Color intermedio con opacidad para un desvanecimiento más gradual */
+      transparent 80%
+    ),
+    rgb(164, 4, 238); /* Respaldo */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .dots {

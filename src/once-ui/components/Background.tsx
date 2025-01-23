@@ -4,7 +4,7 @@ import React, { CSSProperties, forwardRef, useEffect, useRef } from "react";
 import { Flex } from "./Flex"; // Asegúrate de que este archivo exista
 import classNames from "classnames";
 import styles from "./Background.module.scss"; // Asegúrate de que los estilos existan
-import ParticlesCanvas from "./particles.canvas"; // Importamos el componente de partículas
+import ParticlesCanvas from "./Particles.canvas"; // Importamos el componente de partículas
 
 interface BackgroundProps extends React.HTMLAttributes<HTMLDivElement> {
   position?: CSSProperties["position"];

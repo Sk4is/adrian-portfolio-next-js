@@ -56,18 +56,13 @@ const about = {
   avatar: {
     display: true,
   },
-  calendar: {
-    display: true,
-    link: "https://cal.com",
-  },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Adrián is a dedicated web and cross-platform application developer with expertise in technologies like HTML, CSS, JavaScript, PHP, React... With a strong background in both front-end and back-end development, he thrives in collaborative environments and independently managed projects. <br/><br/>
+        Passionate about problem-solving and enhancing user experience, Adrián is eager to contribute his skills and creativity to impactful digital projects while staying current with emerging trends and tools.
       </>
     ),
   },
@@ -76,17 +71,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "SHS",
+        timeframe: "March 2023 - June 2023",
+        role: "Database Administrator",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Review and maintain the Seville City Council database.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Create various scripts, both in SQL and PlSQL, thus creating functions and procedures to maintain the database.
           </>,
         ],
         images: [
@@ -99,22 +92,6 @@ const about = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
     ],
   },
   studies: {
@@ -122,32 +99,170 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "CEI",
+        date: "(2024 - 2025)",
+        description: <>Web Application Development.</>,
+        degree: "Degree: Technician in Web Application Development"
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Udemy",
+        date: "(2023 - 2024)",
+        description: <>Defensive Cybersecurity.</>,
+        degree: "Degree: Defensive Cybersecurity diploma"
+      },
+      {
+        name: "EUSA",
+        date: "(2021 - 2023)",
+        description: <>Multiplatform Application Development.</>,
+        degree: "Degree: Technician in Multiplatform Application Development"
+      },
+      {
+        name: "St James",
+        date: "(2024 - 2025)",
+        description: <>English School.</>,
+        degree: "Degree: B1 (Cambridge)"
+      },
+      {
+        name: "Colegio Aljarafe",
+        date: "(2005 - 2021)",
+        description: <>Primary, Secondary and High School.</>,
+        degree: "Degree: High School diploma"
       },
     ],
   },
+  volunteering: {
+    title: "Volunteering",
+    display: true,
+    experiences: [
+      {
+        organization: "Junta de Andalucía",
+        role: "Volunteer Reconstructor",
+        timeframe: "(June 2024 - July 2024)",
+        description: "Building sustainable infrastructures using recycled and biodegradable materials, promoting eco-friendly construction practices, and creating recreational spaces for youth development.",
+      },
+    ]
+  },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Java",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/java.png",
+            alt: "Project image",
+            width: 7,
+            height: 7,
+          },
+        ],
+      },
+      {
+        title: "HTML",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/html.png",
+            alt: "Project image",
+            width: 7,
+            height: 7,
+          },
+        ],
+      },
+      {
+        title: "Data Bases",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
+        ],
+      },
+      ,
+      {
+        title: "SQL - PL/SQL",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      ,
+      {
+        title: "Integrated Development Environment",
+        description: <>Knowledge of some IDE like: Visual Studio Code, IntelliJ IDEA, Eclipse, NetBeans, Android Studio.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      ,
+      {
+        title: "Front-End",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      ,
+      {
+        title: "Back-End",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      ,
+      {
+        title: "Operating Systems",
+        description: <>I can handle different Operative Systems like: Windows 10, Windows 11 or linux.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      ,
+      {
+        title: "JavaScript",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -155,7 +270,48 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
+        title: "PHP",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Frameworks",
+        description: <>Knowledge about React, Node, Laravel, Jest, Next or Bootstrap.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Productivity Packages (Microsoft Office & Google Workspace)",
+        description: <>I have worked with: <br />
+        - <b>Microsoft Office</b>: Excel, Word, Powerpoint, Outlook, Teams. <br />
+        - <b>Google Workspace</b>: Docs, Slides, Sheets, Calendar, Gmail, Forms, Meet, Drive.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "TypeScript",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [

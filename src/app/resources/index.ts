@@ -13,7 +13,6 @@ export {
   social,
   home,
   about,
-  blog,
   work,
   gallery,
 } from "@/app/resources/content";

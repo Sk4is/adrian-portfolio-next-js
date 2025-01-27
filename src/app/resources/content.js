@@ -109,7 +109,7 @@ const about = {
       },
       {
         name: "St James",
-        date: "(2024 - 2025)",
+        date: "(2008 - 2025)",
         description: <>English School.</>,
         degree: "Degree: B1 (Cambridge)"
       },
@@ -205,8 +205,13 @@ const work = {
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  headline: <>Multiplatform & Web Developer</>,
+  subline: (
+    <>
+      I'm {person.firstName}, a Multiplatform & Web Developer, where I craft from the simple to de complex
+      <br /> apps/websites, always looking for a good user experience. After being studying for almost 4 years, I'll show you what i learned.
+    </>
+  ), 
 };
 
 const gallery = {

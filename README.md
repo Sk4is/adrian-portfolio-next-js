@@ -1,1 +1,3 @@
 Para cambiar el color del punto --> src>once-ui>components>background.module.scss
+
+Contenido de la página work: src<app<work<projects<building_once_ui...

@@ -79,7 +79,7 @@ const about = {
             Review and maintain the Seville City Council database.
           </>,
           <>
-            Create various scripts, both in SQL and PlSQL, thus creating functions and procedures to maintain the database.
+            Create various scripts, both in SQL and PL/SQL, thus creating functions and procedures to maintain the database.
           </>,
         ],
       },
@@ -115,7 +115,7 @@ const about = {
       },
       {
         name: "Colegio Aljarafe",
-        date: "(2005 - 2021)",
+        date: "(2004 - 2021)",
         description: <>Primary, Secondary and High School.</>,
         degree: "Degree: High School diploma"
       },
@@ -139,20 +139,20 @@ const about = {
     skills: [
       {
         title: "Java",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Experienced in rapidly prototyping user interfaces with Figma, paired with Once UI, to achieve quick and efficient designs. Able to work with Java for both front-end and back-end development.</>,
       },
       {
         title: "HTML",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Proficient in building modern web applications using HTML, working alongside Next.js, Once UI, and Supabase for full-stack development to create dynamic, responsive, and user-friendly applications.</>,
       },
       {
         title: "Data Bases",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Skilled in creating and managing databases, integrating them with cutting-edge web applications powered by Next.js, Once UI, and Supabase for scalable and performant app solutions.</>,
       },
       ,
       {
         title: "SQL - PL/SQL",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Experienced in writing complex queries and stored procedures using SQL and PL/SQL for efficient data management and seamless integration with Next.js, Once UI, and Supabase-powered apps.</>,
       },
       ,
       {
@@ -162,12 +162,12 @@ const about = {
       ,
       {
         title: "Front-End",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Specializing in front-end development using Next.js and Once UI, leveraging modern technologies to build engaging and responsive user interfaces for next-gen applications.</>,
       },
       ,
       {
         title: "Back-End",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Experienced in back-end development, working with Next.js, Once UI, and Supabase to create secure and scalable APIs and server-side logic that power next-gen web applications.</>,
       },
       ,
       {
@@ -177,15 +177,15 @@ const about = {
       ,
       {
         title: "JavaScript",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Skilled in using JavaScript for full-stack development, particularly with Next.js, Once UI, and Supabase to build dynamic, interactive web applications with advanced features and a smooth user experience.</>,
       },
       {
         title: "PHP",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Proficient in PHP for developing server-side applications, integrating with frameworks like Laravel and tools like Next.js, Once UI, and Supabase to create powerful back-end services.</>,
       },
       {
         title: "Frameworks",
-        description: <>Knowledge about React, Node, Laravel, Jest, Next or Bootstrap.</>,
+        description: <>Knowledgeable in a variety of frameworks including React, Node.js, Laravel, Jest, Next.js, and Bootstrap, enabling rapid development of feature-rich applications with modern technologies.</>,
       },
       {
         title: "Productivity Packages (Microsoft Office & Google Workspace)",
@@ -195,7 +195,7 @@ const about = {
       },
       {
         title: "TypeScript",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Expert in TypeScript, using it alongside Next.js, Once UI, and Supabase to build robust, type-safe applications that improve code quality and maintainability for modern web development.</>,
       },
     ],
   },

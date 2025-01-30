@@ -109,7 +109,7 @@ const about = {
       },
       {
         name: "St James",
-        date: "(2008 - 2025)",
+        date: "(2006 - 2019)",
         description: <>English School.</>,
         degree: "Degree: B1 (Cambridge)"
       },
@@ -139,20 +139,20 @@ const about = {
     skills: [
       {
         title: "Java",
-        description: <>Experienced in rapidly prototyping user interfaces with Figma, paired with Once UI, to achieve quick and efficient designs. Able to work with Java for both front-end and back-end development.</>,
+        description: <>Experienced in Java, I have been working with this language since 2021, when I first introduced myself into programming.</>,
       },
       {
         title: "HTML",
-        description: <>Proficient in building modern web applications using HTML, working alongside Next.js, Once UI, and Supabase for full-stack development to create dynamic, responsive, and user-friendly applications.</>,
+        description: <>Proficient in building modern web applications using HTML.</>,
       },
       {
         title: "Data Bases",
-        description: <>Skilled in creating and managing databases, integrating them with cutting-edge web applications powered by Next.js, Once UI, and Supabase for scalable and performant app solutions.</>,
+        description: <>Skilled in creating and managing databases, integrating them with cutting-edge web applications.</>,
       },
       ,
       {
         title: "SQL - PL/SQL",
-        description: <>Experienced in writing complex queries and stored procedures using SQL and PL/SQL for efficient data management and seamless integration with Next.js, Once UI, and Supabase-powered apps.</>,
+        description: <>Experienced in writing complex queries and stored procedures using SQL and PL/SQL for efficient data management.</>,
       },
       ,
       {
@@ -162,12 +162,12 @@ const about = {
       ,
       {
         title: "Front-End",
-        description: <>Specializing in front-end development using Next.js and Once UI, leveraging modern technologies to build engaging and responsive user interfaces for next-gen applications.</>,
+        description: <>Specializing in front-end development using CSS, HTML, React, and more technologies to build engaging and responsive user interfaces for next-gen applications.</>,
       },
       ,
       {
         title: "Back-End",
-        description: <>Experienced in back-end development, working with Next.js, Once UI, and Supabase to create secure and scalable APIs and server-side logic that power next-gen web applications.</>,
+        description: <>Experienced in back-end development, working with different programming languages.</>,
       },
       ,
       {
@@ -177,11 +177,11 @@ const about = {
       ,
       {
         title: "JavaScript",
-        description: <>Skilled in using JavaScript for full-stack development, particularly with Next.js, Once UI, and Supabase to build dynamic, interactive web applications with advanced features and a smooth user experience.</>,
+        description: <>Skilled in using JavaScript for full-stack development.</>,
       },
       {
         title: "PHP",
-        description: <>Proficient in PHP for developing server-side applications, integrating with frameworks like Laravel and tools like Next.js, Once UI, and Supabase to create powerful back-end services.</>,
+        description: <>Proficient in PHP for developing server-side applications, integrating with frameworks like Laravel to create powerful back-end services.</>,
       },
       {
         title: "Frameworks",
@@ -195,7 +195,7 @@ const about = {
       },
       {
         title: "TypeScript",
-        description: <>Expert in TypeScript, using it alongside Next.js, Once UI, and Supabase to build robust, type-safe applications that improve code quality and maintainability for modern web development.</>,
+        description: <>Experienced in TypeScript, using it alongside some frameworks to create variety of applications.</>,
       },
     ],
   },

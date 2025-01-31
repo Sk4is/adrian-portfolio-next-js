@@ -39,7 +39,7 @@ const home = {
   headline: <>Multiplatform & Web Developer</>,
   subline: (
     <>
-      I'm {person.firstName}, a Multiplatform & Web Developer, where I craft from the simple to de complex
+      I'm {person.firstName}, a Multiplat & Web Developer, where I craft from the simple to de complex
       <br /> apps/websites, always looking for a good user experience. After being studying for almost 4 years, I'll show you what i learned.
     </>
   ),

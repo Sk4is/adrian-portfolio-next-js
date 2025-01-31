@@ -66,8 +66,10 @@ export function generateMetadata({ params: { slug } }: WorkParams) {
 export default function Project({ params }: WorkParams) {
   let post = getPosts(["src", "app", "work", "projects"]).find((post) => post.slug === params.slug);
 
+  // Si no se encuentra el proyecto, mostramos una página de error.
   if (!post) {
     notFound();
+    return null; // Si no se encuentra el proyecto, no debemos continuar con el renderizado.
   }
 
   const avatars =

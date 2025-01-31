@@ -67,7 +67,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
     >
       <Background
         mask={{
-          cursor: mailchimp.effects.mask.cursor,
+          cursor: mailchimp.effects.mask.cursor ? "pointer" : "default",  // Si es true, el cursor será 'pointer', si es false será 'default'
           x: mailchimp.effects.mask.x,
           y: mailchimp.effects.mask.y,
           radius: mailchimp.effects.mask.radius,

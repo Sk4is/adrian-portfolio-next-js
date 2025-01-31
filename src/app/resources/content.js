@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Multiplatform & Web Developer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/photo.png",
   location: "Europe/Madrid", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Spanish", "English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -39,7 +39,7 @@ const home = {
   headline: <>Multiplatform & Web Developer</>,
   subline: (
     <>
-      I'm {person.firstName}, a Multiplat & Web Developer, where I craft from the simple to de complex
+      I'm {person.firstName}, a Multiplatform & Web Developer, where I craft from the simple to de complex
       <br /> apps/websites, always looking for a good user experience. After being studying for almost 4 years, I'll show you what i learned.
     </>
   ),

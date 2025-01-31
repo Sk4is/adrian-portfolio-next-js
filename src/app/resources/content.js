@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Multiplatform & Web Developer",
-  avatar: "/images/Photo.png",
+  avatar: "/images/avatar.jpg",
   location: "Europe/Madrid", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Spanish", "English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -218,7 +218,6 @@ const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
   images: [
     {
       src: "/images/gallery/img-01.jpg",
